@@ -21,7 +21,7 @@
     "llm:build": "npm run build 2>&1 | tee var/qa/build.log",
     "llm:format:check": "prettier --check . 2>&1 | tee var/qa/format-check.log"
   },
-  "author": "Joseph Edmonds",
+  "author": "Joseph Edmonds <joseph@ltscommerce.dev>",
   "license": "UNLICENSED",
   "dependencies": {
     "react": "^18.3.1",
