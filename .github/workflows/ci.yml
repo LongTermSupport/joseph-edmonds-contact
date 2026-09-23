@@ -18,8 +18,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      # The org allows only GitHub-owned actions plus an allow-list, and
+      # pnpm/action-setup is not on it, so pnpm comes from corepack instead.
+      - name: Enable pnpm via corepack
+        run: corepack enable pnpm
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
