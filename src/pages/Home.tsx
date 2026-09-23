@@ -44,10 +44,10 @@ export function Home() {
                   Engineer, author and photographer, working from Shipley in West Yorkshire.
                 </p>
                 <p className="text-gray-600 mb-0">
-                  I have been building e-commerce and PHP systems since the early noughties, I
-                  wrote a book about modern PHP for Packt, and these days most of my working time
-                  goes on making AI-driven development safe enough to trust. Everything I do lives
-                  on one of the sites below, so this page is simply the signpost.
+                  I have been building e-commerce and PHP systems since the early noughties, I wrote
+                  a book about modern PHP for Packt, and these days most of my working time goes on
+                  making AI-driven development safe enough to trust. Everything I do lives on one of
+                  the sites below, so this page is simply the signpost.
                 </p>
               </div>
             </div>

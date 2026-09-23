@@ -83,7 +83,8 @@ export const LINK_GROUPS: readonly LinkGroup[] = [
         title: 'Amazon author page',
         href: 'https://amazon.com/author/joseph_edmonds',
         host: 'amazon.com/author/joseph_edmonds',
-        description: 'The Art of Modern PHP 8, published by Packt in 2021, and whatever comes next.',
+        description:
+          'The Art of Modern PHP 8, published by Packt in 2021, and whatever comes next.',
       },
     ],
   },

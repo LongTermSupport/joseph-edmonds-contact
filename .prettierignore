@@ -5,3 +5,5 @@ untracked
 var
 .claude
 pnpm-lock.yaml
+test-results
+playwright-report

@@ -33,5 +33,20 @@ export default tseslint.config(
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     },
+  },
+  {
+    files: ['**/src/test-utils/**', '**/src/entry-server.tsx'],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
+  },
+  {
+    // main.tsx is Vite's client-only browser entry point (src/entry-server.tsx is the
+    // separate SSR entry), so its module-top-level document read is not an SSR risk.
+    // See tsQaConfig/tier-a-exemptions.json for the matching justified exemption.
+    files: ['**/src/main.tsx'],
+    rules: {
+      'ts-qa/ssr-safe-hooks': 'off',
+    },
   }
 );

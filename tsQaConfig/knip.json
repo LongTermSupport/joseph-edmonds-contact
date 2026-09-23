@@ -1,12 +1,11 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
   "entry": [
-    "src/main.tsx",
     "src/entry-server.tsx",
     "scripts/*.mjs",
     "tsQaConfig/eslint.config.js",
     "src/routes.ts",
     "src/types/routing.ts"
   ],
-  "project": ["src/**/*.{ts,tsx}"]
+  "project": ["src/**/*.{ts,tsx,css}"]
 }

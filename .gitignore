@@ -35,3 +35,7 @@ npm-debug.log*
 
 # Local scratch
 untracked/
+
+# Playwright artefacts (the phase is disabled in tsQaConfig/ts-qa.json)
+test-results/
+playwright-report/
